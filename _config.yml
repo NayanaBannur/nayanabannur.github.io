@@ -16,8 +16,7 @@ url:  # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
 repository: NayanaBannur/nayanabannur
-include_footer: true
-include_copyright: false
+include_footer: false
 # -----------------------------------------------------------------------------
 # Layout
 # -----------------------------------------------------------------------------
