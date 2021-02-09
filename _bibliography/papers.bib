@@ -1,22 +1,42 @@
 ---
 ---
 
-@article {Bannur2020.10.19.20215293,
+@inproceedings{10.1145/3430984.3431047,
 	abbr={CODS-COMAD},
 	author = {Bannur, Nayana and Maheshwari, Harsh and Jain, Sansiddh and Shetty, Shreyas and Merugu, Srujana and Raval, Alpan},
 	title = {Adaptive COVID-19 Forecasting via Bayesian Optimization},
-	elocation-id = {2020.10.19.20215293},
-	year = {2020},
-	doi = {10.1101/2020.10.19.20215293},
-	publisher = {Cold Spring Harbor Laboratory Press},
-	abstract = {Accurate forecasts of infections for localized regions are valuable for policy making and medical capacity planning. Existing compartmental and agent-based models for epidemiological forecasting employ static parameter choices and cannot be readily contextualized, while adaptive solutions focus primarily on the reproduction number. In the current work, we propose a novel model-agnostic Bayesian optimization approach for learning model parameters from observed data that generalizes to multiple application-specific fidelity criteria. Empirical results demonstrate the efficacy of the proposed approach with SEIR-like compartmental models on COVID-19 case forecasting tasks. A city-level forecasting system based on this approach is being used for COVID-19 response in a few highly impacted Indian cities.},
-	URL = {https://www.medrxiv.org/content/early/2020/10/27/2020.10.19.20215293},
-	html = {https://www.medrxiv.org/content/10.1101/2020.10.19.20215293v1.full},
+	year = {2021},
+	isbn = {9781450388177},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	URL = {https://doi.org/10.1145/3430984.3431047},
+	html = {https://dl.acm.org/doi/10.1145/3430984.3431047},
 	pdf = {https://www.medrxiv.org/content/10.1101/2020.10.19.20215293v1.full.pdf},
-	eprint = {https://www.medrxiv.org/content/early/2020/10/27/2020.10.19.20215293.full.pdf},
+	doi = {10.1145/3430984.3431047},
+	abstract = { Accurate forecasts of infections for localized regions are valuable for policy making and medical capacity planning. Existing compartmental and agent-based models for epidemiological forecasting employ static parameter choices and cannot be readily contextualized, while adaptive solutions focus primarily on the reproduction number. The current work proposes a novel model-agnostic Bayesian optimization approach for learning model parameters from observed data that generalizes to multiple application-specific fidelity criteria. Empirical results point to the efficacy of the proposed method with SEIR-like models on COVID-19 case forecasting tasks. A city-level forecasting system based on this method is being used for COVID-19 response in a few impacted Indian cities.},
+	booktitle = {8th ACM IKDD CODS and 26th COMAD},
+	pages = {432},
+	numpages = {1},
+	location = {Bangalore, India},
+	series = {CODS COMAD 2021},
+	selected = {true}
+}
+
+@article {Cramer2021.02.03.21250974,
+	author = {Cramer, Estee Y and Ray, Evan L and Lopez, Velma K and Bracher, Johannes and Brennen, Andrea and Rivadeneira, Alvaro J Castro and Gerding, Aaron and Gneiting, Tilmann and House, Katie H and Huang, Yuxin and Jayawardena, Dasuni and Kanji, Abdul H and Khandelwal, Ayush and Le, Khoa and M{\"u}hlemann, Anja and Niemi, Jarad and Shah, Apurv and Stark, Ariane and Wang, Yijin and Wattanachit, Nutcha and Zorn, Martha W and Gu, Youyang and Jain, Sansiddh and Bannur, Nayana and Deva, Ayush and Kulkarni, Mihir and Merugu, Srujana and Raval, Alpan and Shingi, Siddhant and Tiwari, Avtansh and White, Jerome},
+	title = {Evaluation of individual and ensemble probabilistic forecasts of COVID-19 mortality in the US},
+	elocation-id = {2021.02.03.21250974},
+	year = {2021},
+	doi = {10.1101/2021.02.03.21250974},
+	publisher = {Cold Spring Harbor Laboratory Press},
+	abstract = {Short-term probabilistic forecasts of the trajectory of the COVID-19 pandemic in the United States have served as a visible and important communication channel between the scientific modeling community and both the general public and decision-makers. Forecasting models provide specific, quantitative, and evaluable predictions that inform short-term decisions such as healthcare staffing needs, school closures, and allocation of medical supplies. In 2020, the COVID-19 Forecast Hub (https://covid19forecasthub.org/) collected, disseminated, and synthesized hundreds of thousands of specific predictions from more than 50 different academic, industry, and independent research groups. This manuscript systematically evaluates 23 models that regularly submitted forecasts of reported weekly incident COVID-19 mortality counts in the US at the state and national level. One of these models was a multi-model ensemble that combined all available forecasts each week. The performance of individual models showed high variability across time, geospatial units, and forecast horizons. Half of the models evaluated showed better accuracy than a naive baseline model. In combining the forecasts from all teams, the ensemble showed the best overall probabilistic accuracy of any model. Forecast accuracy degraded as models made predictions farther into the future, with probabilistic accuracy at a 20-week horizon more than 5 times worse than when predicting at a 1-week horizon. This project underscores the role that collaboration and active coordination between governmental public health agencies, academic modeling teams, and industry partners can play in developing modern modeling capabilities to support local, state, and federal response to outbreaks.},
+	URL = {https://www.medrxiv.org/content/early/2021/02/05/2021.02.03.21250974},
+	eprint = {https://www.medrxiv.org/content/early/2021/02/05/2021.02.03.21250974.full.pdf},
+	pdf = {https://www.medrxiv.org/content/10.1101/2021.02.03.21250974v1.full.pdf},
+	html = {https://www.medrxiv.org/content/early/2021/02/05/2021.02.03.21250974},
 	journal = {medRxiv},
 	selected = {true},
-	status = {Accepted in ACM CODS-COMAD 2021}
+	etal = {true}
 }
 
 @article {Maheshwari2020.11.10.20211995,
@@ -45,6 +65,7 @@
 	abstract = {During an epidemic, accurate long term forecasts are crucial for decision-makers to adopt appropriate policies and to prevent medical resources from being overwhelmed. This came to the forefront during the COVID-19 pandemic, during which there were numerous efforts to predict the number of new infections. Various classes of models were employed for forecasting including compartmental models and curve-fitting approaches. Curve fitting models often have accurate short term forecasts. Their parameters, however, can be difficult to associate with actual disease dynamics. Compartmental models take these dynamics into account, allowing for more flexible and interpretable models that facilitate qualitative comparison of scenarios. This paper proposes a method of strengthening the forecasts from compartmental models by using short term pre-dictions from a curve fitting approach as synthetic data. We discuss the method of fitting this hybrid model in a generalized manner without reliance on region specific data, making this approach easy to adapt. The model is compared to a standard approach; differences in performance are analyzed for a diverse set of COVID-19 case counts.},
 	pdf = {https://www.medrxiv.org/content/early/2020/12/07/2020.12.04.20243956.full.pdf},
 	eprint = {https://www.medrxiv.org/content/early/2020/12/07/2020.12.04.20243956.full.pdf},
+	html = {https://www.medrxiv.org/content/10.1101/2020.12.04.20243956v1},
 	journal = {medRxiv},
 	selected = {true}
 }
