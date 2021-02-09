@@ -37,13 +37,25 @@
                 {% endif %}
               {% endif %}
             {% else %}
-              {% if author.last == site.scholar.last_name %}
-                and <b>{{author.first}} {{author.last}}</b>
-              {% else %}
-                {% if site.data.coauthors[author.last] %}
-                  and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
+              {% if entry.etal%}
+                {% if author.last == site.scholar.last_name %}
+                  <b>{{author.first}} {{author.last}}</b>, et al.
                 {% else %}
-                  and {{author.first}} {{author.last}}
+                  {% if site.data.coauthors[author.last] %}
+                    <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>, et al.
+                  {% else %}
+                    {{author.first}} {{author.last}}, et al.
+                  {% endif %}
+                {% endif %}
+              {% else %}
+                {% if author.last == site.scholar.last_name %}
+                  and <b>{{author.first}} {{author.last}}</b>
+                {% else %}
+                  {% if site.data.coauthors[author.last] %}
+                    and <a href="{{site.data.coauthors[author.last].url}}" target="_blank">{{author.first}} {{author.last}}</a>
+                  {% else %}
+                    and {{author.first}} {{author.last}}
+                  {% endif %}
                 {% endif %}
               {% endif %}
             {% endunless %}
