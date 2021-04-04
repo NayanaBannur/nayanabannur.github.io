@@ -2,6 +2,7 @@
 layout: page
 title: Fetal Distress Classification
 description: An LSTM classifier to predict fetal distress based on fetal heart rate and uterine contraction time series data.
+duration: Jan 2019 - March 2019
 importance: 2
 selected: true
 ---

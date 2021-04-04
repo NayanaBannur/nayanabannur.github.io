@@ -2,6 +2,7 @@
 layout: page
 title: Project Jatayu
 description: Member of R V College's autonomous UAV Team. Participated in the 2019 AUVSI SUAS competition. 
+duration: 2017 - 2020
 importance: 4
 selected: true
 ---

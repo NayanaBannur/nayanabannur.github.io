@@ -2,6 +2,7 @@
 layout: page
 title: Virtual Reality Supermarket
 description: A virtual reality supermarket application for a 3D shopping experience, using Unity and SteamVR. 
+duration: August 2019 - May 2020
 importance: 3
 selected: true
 ---
