@@ -60,8 +60,21 @@ a, table.table a {
 }
 
 .post-description {
+  margin-bottom: 0.5rem;
+  font-size: 0.875rem;
+  a {
+    color: inherit;
+    &:hover {
+      color: var(--global-theme-color);
+      text-decoration: none;
+    }
+  }
+}
+
+.post-duration {
   margin-bottom: 2rem;
   font-size: 0.875rem;
+  font-style: italic;
   a {
     color: inherit;
     &:hover {
