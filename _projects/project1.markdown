@@ -2,7 +2,7 @@
 layout: page
 title: COVID-19 Forecasting
 description: COVID-19 case count forecasting for medical preparedness in highly impacted Indian districts.
-duration: May 2020 - March 2021
+duration: May 2020 - April 2021
 importance: 1
 selected: true
 ---
