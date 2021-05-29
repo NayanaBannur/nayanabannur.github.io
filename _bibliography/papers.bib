@@ -1,16 +1,6 @@
 ---
 ---
 
-@article{covidkdd,
-	author = {Jain, Sansiddh and Tiwari, Avtansh and Bannur, Nayana and Deva, Ayush and Shingi, Siddhant and Shah, Vishwa and Kulkarni, Mihir and Deka, Namrata and Ramaswami, Keshav and Khare, Vasudha and Maheshwari, Harsh and Dhavala, Soma and Sreedharan, Jithin and White, Jerome and Merugu, Srujana and Raval, Alpan},
-	title = {A Flexible Data-Driven Framework for COVID-19 Case Forecasting Deployed in a Developing-world Public Health Setting},
-	year = {2021},
-	status = {Under review at KDD 2021},
-	abstract = {Forecasting infection case counts and estimating accurate epidemiological parameters are critical components of managing the response to a pandemic. This paper describes a modular, extensible framework for a COVID-19 forecasting system, primarily deployed in Mumbai and Jharkhand, India. We employ a variant of the SEIR compartmental model motivated by the nature of the available data and operational constraints. We estimate best fit parameters using Sequential Model-Based Optimization (SMBO), and describe the use of a novel, fast and approximate Bayesian model averaging method (ABMA) for parameter uncertainty estimation that compares well with a more rigorous Markov Chain Monte Carlo (MCMC) approach in practice. We address on-the-ground deployment challenges such as spikes in the reported input data using a novel weighted smoothing method. We describe extensive empirical analyses to evaluate the accuracy of our method on ground truth as well as against other state-of-the-art approaches. Finally, we outline deployment lessons and describe how inferred model parameters were used by government partners to interpret the state of the epidemic and how model forecasts were used to estimate staffing and planning needs essential for addressing COVID-19 hospital burden.},
-	selected = {true},
-	printyear = {false}
-}
-
 @inproceedings{10.1145/3430984.3431047,
 	abbr={CODS-COMAD},
 	author = {Bannur, Nayana and Maheshwari, Harsh and Jain, Sansiddh and Shetty, Shreyas and Merugu, Srujana and Raval, Alpan},
@@ -52,6 +42,7 @@
 	selected = {true},
 	printyear = {false},
 	arxiv={2104.14821},
+	pdf={https://aiforpublichealth.github.io/papers/ICLR-AI4PH_paper_43.pdf},
 	abstract={Interpretability of epidemiological models is a key consideration, especially when these models are used in a public health setting. Interpretability is strongly linked to the identifiability of the underlying model parameters, i.e., the ability to estimate parameter values with high confidence given observations. In this paper, we define three separate notions of identifiability that explore the different roles played by the model definition, the loss function, the fitting methodology, and the quality and quantity of data. We define an epidemiological compartmental model framework in which we highlight these non-identifiability issues and their mitigation.}
 }
 
@@ -100,4 +91,14 @@
 	html = {https://www.medrxiv.org/content/10.1101/2020.12.04.20243956v1},
 	journal = {medRxiv},
 	selected = {true}
+}
+
+@article{covidkdd,
+	author = {Jain, Sansiddh and Tiwari, Avtansh and Bannur, Nayana and Deva, Ayush and Shingi, Siddhant and Shah, Vishwa and Kulkarni, Mihir and Deka, Namrata and Ramaswami, Keshav and Khare, Vasudha and Maheshwari, Harsh and Dhavala, Soma and Sreedharan, Jithin and White, Jerome and Merugu, Srujana and Raval, Alpan},
+	title = {A Flexible Data-Driven Framework for COVID-19 Case Forecasting Deployed in a Developing-world Public Health Setting},
+	year = {2021},
+	status = {In progress},
+	abstract = {Forecasting infection case counts and estimating accurate epidemiological parameters are critical components of managing the response to a pandemic. This paper describes a modular, extensible framework for a COVID-19 forecasting system, primarily deployed in Mumbai and Jharkhand, India. We employ a variant of the SEIR compartmental model motivated by the nature of the available data and operational constraints. We estimate best fit parameters using Sequential Model-Based Optimization (SMBO), and describe the use of a novel, fast and approximate Bayesian model averaging method (ABMA) for parameter uncertainty estimation that compares well with a more rigorous Markov Chain Monte Carlo (MCMC) approach in practice. We address on-the-ground deployment challenges such as spikes in the reported input data using a novel weighted smoothing method. We describe extensive empirical analyses to evaluate the accuracy of our method on ground truth as well as against other state-of-the-art approaches. Finally, we outline deployment lessons and describe how inferred model parameters were used by government partners to interpret the state of the epidemic and how model forecasts were used to estimate staffing and planning needs essential for addressing COVID-19 hospital burden.},
+	selected = {true},
+	printyear = {false}
 }
